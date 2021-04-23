@@ -52,6 +52,7 @@ $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
 ---
 
 <h2 id="vagrant">Vagrantの利用</h2>
+
 Vagrantを使って[公式Vagrantビルド](https://pilab.dev/bludit-vagrant)から実行します。
 
 ```
