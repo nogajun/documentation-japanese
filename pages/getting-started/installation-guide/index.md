@@ -40,7 +40,8 @@ $ php -S localhost:8000
 ---
 
 <h2 id="docker">Dockerの利用</h2>
-Bluditを公式  [Dockerイメージ](https://hub.docker.com/r/bludit/docker/) から実行します。
+
+Bluditを[公式Dockerイメージ](https://hub.docker.com/r/bludit/docker/)から実行します。
 
 ```
 $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
@@ -51,7 +52,7 @@ $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
 ---
 
 <h2 id="vagrant">Vagrantの利用</h2>
-Vagrantを使って公式[Vagrantビルド](https://pilab.dev/bludit-vagrant)から実行します。
+Vagrantを使って[公式Vagrantビルド](https://pilab.dev/bludit-vagrant)から実行します。
 
 ```
 $ git clone https://github.com/mhancoc7/Bludit-Vagrant.git
