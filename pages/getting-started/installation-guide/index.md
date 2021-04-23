@@ -68,5 +68,5 @@ $ vagrant up
 
 <div class="note">
 <div class="title">Web サーバーについて</div>
-追加の設定については、Webサーバーについての章をご覧ください。<a href="https://docs.bludit.com/en/webservers/apache">Apache</a> - <a href="https://docs.bludit.com/en/webservers/nginx">Nginx</a>
+追加の設定については、Webサーバーについての章をご覧ください。<a href="../webservers/apache">Apache</a> - <a href="../webservers/nginx">Nginx</a>
 </div>
