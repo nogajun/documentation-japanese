@@ -61,7 +61,7 @@ GitHub-Desktopは、あなたが行ったすべての変更を表示します。
 ## Bluditリモートコンテンツプラグインの有効化と設定
 
 ### Bluditプラグインの準備
-Bluditの管理パネルにログインし、プラグインセクションに移動します。リモートコンテンツプラグインが表示されるまで下にスクロールします。'activate'をクリックして、'configuration'をクリックします。_webhook_入力要素下に表示されているURLをコピーします。例: _https://blog.mydomain.com/9as7dfsd98f をクリップボードにコピー(_Ctrl + c_または_cmd + c_)。
+Bluditの管理パネルにログインし、プラグインセクションに移動します。リモートコンテンツプラグインが表示されるまで下にスクロールします。 'activate' をクリックして、 'configuration' をクリックします。webhookの入力の下に表示されている完全なURL(例: _https://blog.mydomain.com/9as7dfsd98f_ )をクリップボード(_Ctrl+cまたはcmd+c_)にコピーします。
 
 ### GitHubリポジトリの設定
 ウェブブラウザのタブ(またはウィンドウ)を開いてGitHubリポジトリにアクセスし、 _Settings_ を開きます。  _Webhooks_ に移動し、新しいWebhookを作成します。コピーしたWebhookのURLを _Payload URL_ フィールドに貼り付け、 _Content Type_ を _application/json_ に切り替えます。 _Add webhook_ をクリックします。
