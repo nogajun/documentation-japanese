@@ -10,13 +10,13 @@ Bluditは、リモートでホスティングされているコンテンツの�
 
 gitリポジトリのzip ファイルを読むための PHP [zip](https://www.php.net/manual/en/book.zip.php)モジュール。
 
-このチュートリアルでは、[GitHub Desktop](https://desktop.github.com/)を使用してリポジトリを作成、管理します。また、BluditブログがこちらのようなURL、_https://blog.mydomain.com_にインストールされていることを前提とします。
+このチュートリアルでは、[GitHub Desktop](https://desktop.github.com/)を使用してリポジトリを作成、管理します。また、BluditブログがこちらのようなURL、 _https://blog.mydomain.com_ にインストールされていることを前提とします。
 
 ## gitリポジトリの準備
 
-自分のPCに、_bludit-tutorial_という名前のディレクトリを作成します。次にGitHub Desktopを開き、左上の部分をクリックして新しいリポジトリを作成します(_Add_をクリックし、_Create new repository_を選択します)。
+自分のPCに、_bludit-tutorial_ という名前のディレクトリを作成します。次にGitHub Desktopを開き、左上の部分をクリックして新しいリポジトリを作成します( _Add_ をクリックし、 _Create new repository_ を選択します)。
 
-リポジトリに_remote-content-example_と名前をつけ、簡単な説明を入力しています。_Local Path_から_bludit-tutorial_フォルダを指定し、_Create Repository_ボタンをクリックします。これで、_bludit-tutorial_フォルダーに新しいサブフォルダー_remote-content-example_が作成されます。
+リポジトリに _remote-content-example_ と名前をつけ、簡単な説明を入力しています。 _Local Path_ から _bludit-tutorial_ フォルダを指定し、 _Create Repository_ ボタンをクリックします。これで、 _bludit-tutorial_ フォルダーに新しいサブフォルダー _remote-content-example_ が作成されます。
 
 Bluditにコンテンツを正しく解析させるには、いくつかのフォルダを作成し次のような構造にする必要があります。
 
@@ -56,18 +56,18 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 このページは、リモートコンテンツサンプルの2つめのページです。
 ```
 
-GitHub Desktopは、あなたが行ったすべての変更を表示します。コミットメッセージとして「_最初のコミットです_」と入力して、_Commit to master_をクリックします。リポジトリを公開し(つまり、GitHubアカウントにアップロードされます)、ブラウザで_https://github.com/yourusername/remote-content-example_リポジトリを開きます。
+GitHub Desktopは、あなたが行ったすべての変更を表示します。コミットメッセージとして「 _最初のコミットです_ 」と入力して、 _Commit to master_ をクリックします。リポジトリを公開し(つまり、GitHubアカウントにアップロードされます)、ブラウザで _https://github.com/yourusername/remote-content-example_ リポジトリを開きます。
 
 ## Bluditリモートコンテンツプラグインの有効化と設定
 
 ### Bluditプラグインの準備
-Bluditの管理パネルにログインし、プラグインセクションに移動します。リモートコンテンツプラグインが表示されるまで下にスクロールします。'有効化'をクリックして、'設定'をクリックします。_webhook_入力フィールドの下に表示されているURLをコピーします。(例: _https://blog.mydomain.com/9as7dfsd98f_ )をクリップボードにコピー(_Ctrl + c_または_cmd + c_)します。
+Bluditの管理パネルにログインし、プラグインセクションに移動します。リモートコンテンツプラグインが表示されるまで下にスクロールします。'有効化'をクリックして、'設定'をクリックします。_webhook_入力フィールドの下に表示されているURLをコピーします。(例: _https://blog.mydomain.com/9as7dfsd98f_ )をクリップボードにコピー( _Ctrl + C_ または _cmd + C_ )します。
 
 ### GitHubリポジトリの設定
-ウェブブラウザのタブ(またはウィンドウ)を開き、GitHubリポジトリにアクセスして_Settings_を開きます。 _Webhooks_に移動し、新しいWebhookを作成します。コピーしたWebhookのURLを_Payload URL_フィールドに貼り付け、_Content Type_を_application/json_に切り替えます。_Add webhook_をクリックします。
+ウェブブラウザのタブ(またはウィンドウ)を開き、GitHubリポジトリにアクセスして _Settings_ を開きます。_Webhooks_ に移動し、新しいWebhookを作成します。コピーしたWebhookのURLを _Payload URL_ フィールドに貼り付け、 _Content Type_ を _application/json_ に切り替えます。_Add webhook_ をクリックします。
 
 ### Bluditにリポジトリzipファイルの場所を追加
-リポジトリのメインページに戻って、_clone or download_セクションからzipパッケージのURLをコピーします。コピーした完全なURLを_Source_という名前のBluditプラグイン設定フィールドに追加します。プラグイン設定を保存します。
+リポジトリのメインページに戻って、 _clone or download_ セクションからzipパッケージのURLをコピーします。コピーした完全なURLを _Source_ という名前のBluditプラグイン設定フィールドに追加します。プラグイン設定を保存します。
 
 ## 最初のpushをする
 それではローカルリポジトリに戻って、新しいページを作成します。
@@ -94,7 +94,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 リモートコンテンツを経由してインポートされるページは、正しく解析するために次の構造に従う必要があります。
 
 * 1行目: ページタイトル、先頭に#をつける
-* そして、作成日や公開状態など提供したいすべてのメタデータをhtmlのコメント表記(`<!--`と`-->`)で囲みます。
+* そして、作成日や公開状態など提供したいすべてのメタデータをhtmlのコメント表記( `<!--` と `-->` )で囲みます。
 * あなたのコンテンツ
 
 ```markdown
