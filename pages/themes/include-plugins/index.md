@@ -4,7 +4,7 @@
 Bluditはプラグインをサポートしており、各プラグインにはフックがあります。フックは関数で、これらの関数はテーマ内の異なる場所で実行されます。
 
 フックのリストはこちらです。
-- https://docs.bludit.com/en/plugins/hooks-list
+- https://docs.bludit.com/ja/plugins/hooks-list
 
 例としては、フック`siteHead`で有効化されたすべてのプラグインを実行するには、`Theme::plugins()`ヘルパーを使用します。
 ```
@@ -15,13 +15,13 @@ Bluditはプラグインをサポートしており、各プラグインには�
 
 <h2 id="example">設定例</h2>
 
-ここでは、3種類のフックを使用してテーマの正しい場所で実行する方法の例を示します。
+ここでは、3種類のフックを使用してテーマの正しい場所で実行する方法を紹介します。
 
 ```
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Hello</title>
+		<title>こんにちは</title>
 
 		<?php
 			Theme::plugins('siteHead');

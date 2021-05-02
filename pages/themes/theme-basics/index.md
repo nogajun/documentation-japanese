@@ -1,4 +1,4 @@
-# テーマの基本
+# テーマの基礎知識
 <!-- position: 1 -->
 
 Bluditのテーマは非常に柔軟で、どんなフレームワーク([Bootstrap](http://getbootstrap.com/), [Foundation](https://foundation.zurb.com/), [Bulma](https://bulma.io), [UIkit](https://getuikit.com/), [Semantic UI](https://semantic-ui.com),など)でも、どんなJavascriptのコードでも自由に利用できます。

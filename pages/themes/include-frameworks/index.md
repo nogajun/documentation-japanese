@@ -1,9 +1,9 @@
 # フレームワークを含める
 <!-- position: 7 -->
 
-Bluditのテーマは非常に柔軟で、フレームワーク(Bootstrap、Foundation、Bulma、UIkit、Semantic UIなど)、Javascriptコードなどを自由に使えます。
+Bluditのテーマは非常に柔軟でフレームワーク(Bootstrap、Foundation、Bulma、UIkit、Semantic UIなど)やJavascriptコードなど自由に利用できます。
 
-このドキュメントでは、いくつかのフレームワークを紹介していますが、ページを編集して自由に追加できます。
+このドキュメントでは、いくつかのフレームワークを紹介していますがページを編集して自由に追加できます。
 
 <h2 id="jquery">jQueryを含める</h2>
 

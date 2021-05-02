@@ -1,14 +1,14 @@
-# 管理パネル: プラグインからのコントローラーとビュー
+# プラグインからの管理パネルのコントローラーとビュー
 <!-- position: 3 -->
 
-Bluditでは、管理パネルのコントローラとビューをプラグインから簡単に作成できます。
+Bluditでは、プラグインから管理パネルのコントローラーとビューを簡単に作成できます。
 
 <div class="note">
 この機能はBludit v3.13から実装されています。
 </div>
 
 ## メモ
-- Bluditのデフォルトでは、スタイリングに[Bootstrap](https://getbootstrap.com/)を使用しますが、管理ビューでも使用できます。
+- Bluditのデフォルトでは、スタイリングに[Bootstrap](https://getbootstrap.com/)を使用しますが管理ビューでも使用できます。
 - 管理ビューのエンドポイントは`/admin/plugin/<プラグイン名>`です。
 
 ## 例: Hello world!
@@ -97,5 +97,5 @@ class CustomAdmin extends Plugin {
 }
 ```
 
-完全なサンプルプラグインは、こちらからダウンロードできます。
+完全なプラグインサンプルは、こちらからダウンロードできます。
 - https://github.com/bludit/examples/tree/master/plugins/custom-controller-view-admin-panel

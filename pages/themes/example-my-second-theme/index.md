@@ -1,19 +1,19 @@
-# 例: 2番目のテーマ
+# 作成例: 2つ目のテーマ
 <!-- position: 101 -->
 
-ここでは2つ目の例として、CSSやJavascript、プラグインへの対応など、Bluditのテーマを一から作る方法をご紹介します。
+ここでは2つ目の例として、CSS、Javascript、プラグインの対応などBluditのテーマを最初から作る方法を紹介します。
 
-このテーマを`Mars`と呼びましょう。
+このテーマは`Mars`と呼びましょう。
 
-このチュートリアルに興味がない場合は、こちらからソースコードがダウンロードできます。 <a href="https://github.com/bludit/examples/tree/master/themes/mars">Mars theme</a>.
+もし、このチュートリアルに興味がない場合は、こちらからソースコードをダウンロードできます。 <a href="https://github.com/bludit/examples/tree/master/themes/mars">Mars theme</a>.
 
 <h2 id="folder-structure">フォルダー構造</h2>
 `/bl-themes/`フォルダーにテーマのフォルダーを作成します。パスは`/bl-themes/mars/`のようになります。
 
-次にlanguages、CSS、JSフォルダを作成します。
-- `/bl-themes/mars/`フォルダーに`languages`フォルダを作成します。
-- `/bl-themes/mars/`フォルダーに`css`フォルダを作成します。
-- `/bl-themes/mars/`フォルダーに`js`フォルダを作成します。
+次に言語、CSS、JSフォルダを作成します。
+- `/bl-themes/mars/`フォルダーに`languages`フォルダーを作成します。
+- `/bl-themes/mars/`フォルダーに`css`フォルダーを作成します。
+- `/bl-themes/mars/`フォルダーに`js`フォルダーを作成します。
 
 ```
 /bl-themes/mars/
@@ -23,7 +23,7 @@
 ```
 
 <h2 id="name-and-information">名前と情報</h2>
-テーマ情報を含むファイルを作成します。このファイルはテーマのルートフォルダにあり、`metadata.json`という名前にする必要があります。以下のJSONコードを含める必要があります。
+テーマ情報を含むファイルを作成します。このファイルはテーマのルートフォルダーにあり、`metadata.json`という名前にする必要があります。以下のJSONコードを含めてください。
 
 ```
 {
@@ -38,7 +38,7 @@
 }
 ```
 
-テーマの名前と説明を書いた`en.json`という名前のファイルも作成します。以下のJSONコードを記述し、`/bl-themes/mars/languages/`フォルダーに置きます。
+`en.json`というテーマの名前と説明を書いたファイルも作成します。下のJSONコードを記述して`/bl-themes/mars/languages/`フォルダーに配置します。
 
 ```
 {
@@ -50,7 +50,7 @@
 }
 ```
 <h2 id="index">Index.php</h2>
-それでは`index.php`の作業をしましょう。`/bl-themes/mars/`フォルダーに以下のHTMLコードを記述したファイルを作成します。
+それでは`index.php`の作業をしましょう。`/bl-themes/mars/`フォルダーに下のHTMLコードを記述したファイルを作成します。
 
 ```
 <!DOCTYPE html>
@@ -65,7 +65,7 @@
 ```
 
 <h2 id="css-files">CSSファイル</h2>
-CSSファイルを追加します:
+CSSファイルを追加します。CSSファイルの追加には2つ方法があります。
 - `Theme::css()`ヘルパーオブジェクトを使用する
 - またはHTMLタグを使う<link href="..." rel="stylesheet" type="text/css" />`
 
@@ -87,7 +87,7 @@ CSSファイルを追加します:
 ```
 
 <h2 id="javascript-files">Javascriptファイル</h2>
-JavaScriptファイルを追加します:
+JavaScriptファイルを追加します。JavaScriptファイルの追加には2つ方法があります。
 - `Theme::js()`ヘルパーオブジェクトを使用する
 - またはHTMLタグを使う<script>...</script>`
 
@@ -181,7 +181,7 @@ Site-Objectを使ってロゴやタイトル、スローガンを取得できま
 <h2 id="where-am-i">私はどこ</h2>
 では、サイトのコンテンツを操作してみましょう。
 
-ユーザーがサイトのどのページを参照しているかを特定するには、変数`$WHERE_AM_I`を使用します。たとえば、ユーザーがページを閲覧している場合、変数の値は`page`という文字列を持ち、ユーザーがフロントページ（ホームページ）を閲覧している場合、変数の値は`home`になります。
+ユーザーがサイトのどのページを参照しているかを特定するには変数`$WHERE_AM_I`を使用します。たとえば、ユーザーがページを閲覧している場合、変数の値は`page`という文字列を持ち、ユーザーがフロントページ(ホームページ)を閲覧している場合は、変数の値は`home`になります。
 
 ```
 <!DOCTYPE html>

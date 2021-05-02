@@ -6,7 +6,7 @@
 APIへのすべてのリクエストには、`APIトークン`が必要です。トークンは、APIプラグインの設定で確認できます。
 
 ```bash
-管理者パネル > ブラグイン > API > APIトークン
+管理パネル > ブラグイン > API > APIトークン
 ```
 
 <h2 id="request">HTTPリクエスト</h2>
@@ -49,9 +49,9 @@ Body:
 ```
 
 <h2 id="curl-example">CURLコマンド例</h2>
-You can request a particular page by the page key.
+ページキーで特定のページをリクエストできます。
 
-The following example shows how to get the page with the key `my-dog`.
+次の例は、キーが`my-dog`のページを取得する方法です。
 
 ```bash
 $ curl -X GET "https://www.example.com/api/pages/my-dog?token=80a09ba055b73f68e3c9e7c9ea12b432"
@@ -82,7 +82,7 @@ $ curl -X GET "https://www.example.com/api/pages/my-dog?token=80a09ba055b73f68e3
 ```
 
 <h2 id="javascript-example">Javascriptの例</h2>
-You can use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to get the page.
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)を使ってページを取得できます。
 
 ```bash
 <script>

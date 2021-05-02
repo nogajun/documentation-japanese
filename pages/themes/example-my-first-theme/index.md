@@ -3,7 +3,7 @@
 
 新しく`Coffee`と名付けたシンプルなテーマを作成しましょう。
 
-- `/bl-themes/`フォルダーにテーマを作成します。パスは`/bl-themes/coffee/`になります。
+- `/bl-themes/`フォルダーにテーマを作成します。パスは`/bl-themes/coffee/`です。
 - `/bl-themes/coffee/`フォルダーに`languages`フォルダーを作成します。
 - `/bl-themes/coffee/languages/`>フォルダーに`en.json`ファイルを作成します。
 -  `/bl-themes/coffee/`フォルダーに`metadata.json`ファイルを作成します。

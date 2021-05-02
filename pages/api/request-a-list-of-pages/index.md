@@ -6,7 +6,7 @@
 APIへのすべてのリクエストには、`APIトークン`が必要です。トークンは、APIプラグインの設定で確認できます。
 
 ```bash
-管理者パネル > ブラグイン > API > APIトークン
+管理パネル > ブラグイン > API > APIトークン
 ```
 
 <h2 id="request">HTTPリクエスト</h2>
@@ -95,7 +95,7 @@ $ curl -X GET "https://www.example.com/api/pages?token=80a09ba055b73f68e3c9e7c9e
 ```
 
 <h2 id="javascript-example">Javascriptの例</h2>
-Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)を使って、ページの一覧を取得できます。
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)を使ってページ一覧を取得できます。
 
 ```
 <script>

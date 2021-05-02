@@ -1,4 +1,4 @@
-# ページ: 作成後
+# ページ作成後のフック
 <!-- position: 5 -->
 
 ページが作成されると、Bludit はフック`afterPageCreate`を呼び出します。このフックは、スケジューラーで作成されたページに対しても呼び出されます。
@@ -33,5 +33,5 @@ class TitleAppender extends Plugin {
 ?>
 ```
 
-完全なサンプルプラグインは、こちらからダウンロードできます。
+完全なプラグインサンプルは、こちらからダウンロードできます。
 - https://github.com/bludit/examples/tree/master/plugins/title-appender

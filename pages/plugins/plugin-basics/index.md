@@ -1,7 +1,7 @@
-# プラグインの基本
+# プラグインの基礎知識
 <!-- position: 1 -->
 
-Bluditのプラグインは`bl-plugins`フォルダにあり、定義された構造を持っています。各プラグインはBluditのオブジェクトで、それぞれ異なるフック（メソッド）を持っています。
+Bluditのプラグインは`bl-plugins`フォルダにあり、定義された構造を持っています。各プラグインはBluditのオブジェクトで、それぞれ異なるフック(メソッド)を持っています。
 
 <h2 id="structure">フォルダーとファイル構造</h2>
 プラグインに必要なフォルダ構造とファイルは次のとおりです。
@@ -14,7 +14,7 @@ Bluditのプラグインは`bl-plugins`フォルダにあり、定義された�
 ```
 
 <h2 id="name-and-description">名前と説明</h2>
-プラグインの名前と説明は、JSONファイルの`languages/en.json`にあります。
+プラグインの名前と説明は、JSONファイル`languages/en.json`にあります。
 
 ```
 {
@@ -27,7 +27,7 @@ Bluditのプラグインは`bl-plugins`フォルダにあり、定義された�
 ```
 
 <h2 id="information">テーマ情報</h2>
-The meta information of the plugin is located in the JSON file, `metadata.json`.
+プラグインのメタ情報は、JSONファイル`metadata.json`にあります。
 
 ```
 {
@@ -42,7 +42,7 @@ The meta information of the plugin is located in the JSON file, `metadata.json`.
 }
 ```
 
-<h2 id="hello-world">Hello World</h2>
+<h2 id="hello-world">Hello Worldプラグイン</h2>
 BluditのHello Worldプラグインです。以下のコードは、`plugin.php`ファイルに記述する必要があります。
 
 ```

@@ -9,7 +9,7 @@ Bluditでは、開発者がより少ないコードで書けるようにヘル�
 - テーマパス `/bl-themes/box/`
 - Faviconファイルパス `/bl-themes/box/favicon.png`
 
-ヘルパー`Theme::`の次のメソッドはfaviconのheadタグを生成します。デフォルトでは、返すMIMEタイプは`image/png`です。
+ヘルパー`Theme::`の次のメソッドはfaviconのヘッドタグを生成します。デフォルトで返すMIMEタイプは、`image/png`です。
 ```
 <?php
 	echo Theme::favicon('favicon.png');

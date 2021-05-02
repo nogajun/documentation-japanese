@@ -7,7 +7,7 @@ Bludit API(Application Programming Interface)プラグインは、他のシス�
 BluditにはAPIプラグインがプリインストールされているので、プラグインセクションから有効化するだけです。
 
 ```bash
-管理者パネル > ブラグイン > API > 有効化
+管理パネル > ブラグイン > API > 有効化
 ```
 
 <h2 id="url">URL</h2>
@@ -49,7 +49,7 @@ https://www.example.com/api/pages
 
 本文のデフォルト値です。
 
-| キー | タイプ | 説明 |
+| キー | type | 説明 |
 |-----|------|-------------|
 | status | string | 成功した場合は0を返す。 |
 | message | string | 実行に関する簡単なメッセージを返す。 |
