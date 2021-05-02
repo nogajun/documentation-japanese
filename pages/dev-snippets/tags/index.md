@@ -1,13 +1,13 @@
 # タグ
 <!-- position: 6 -->
 
-タグを操作するためのコードスニペット。
+タグを扱うためのコードスニペットです。
 
 タグの定義済み変数
-- `$tags`はタグオブジェクトです。[こちらにはクラスがあります](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php)。
+- `$tags`はタグオブジェクトです。[こちらにクラスがあります](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php)。
 
 <div class="note">
-デフォルトでは、タグのデータベースは英数字でソートされます。
+デフォルトでは、タグのデータベースはアルファベット順にソートされます。
 </div>
 
 <h2 id="list-all-tags">すべてのタグ一覧を表示</h2>

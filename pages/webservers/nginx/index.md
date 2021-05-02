@@ -12,7 +12,7 @@ Bluditには、すべてのリクエストとレスポンスを処理する独�
 ## HTTPの設定
 Bludit用の新しいサーバーブロックを設定するには、新規ファイルとして`/etc/nginx/conf.d/bludit.conf`を作成し、設定します。このディレクトリは、GNU/Linuxの他のディストリビューションでは異なる場合があります。例えばUbuntuでは、`/etc/nginx/sites-enabled/bludit.conf`になります。
 
-セキュリティ上の理由から、`/bl-content/databases`、`/bl-content/pages`、databases`、`/bl-content/pages`、`/bl-content/workspaces`フォルダへのアクセスを禁止することも忘れないでください。そうしないと、ユーザーがこれらのディレクトリにあるいくつかのファイルに直接アクセスしてしまう可能性があります。
+セキュリティ上の理由から `/bl-kernel/` 、 `/bl-content/databases` 、 `/bl-content/pages` 、 `/bl-content/workspaces` フォルダーのPHPファイルへのアクセスを禁止することも忘れないでください。そうしない場合、これらのディレクトリにあるいくつかのファイルにユーザーが直接アクセスしてしまう可能性があります。
 
 ```
 server {

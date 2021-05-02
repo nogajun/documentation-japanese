@@ -1,7 +1,7 @@
-# コンテンツ・静的ページ
+# コンテンツ: 静的ページ
 <!-- position: 4 -->
 
-このセクションは、[静的ページ](https://docs.bludit.com/en/content/content-basics#static)のコンテンツ関連を扱っています。
+このセクションでは、[静的ページ](https://docs.bludit.com/en/content/content-basics#static)のコンテンツ関連を扱っています。
 
 ## すべての静的ページを表示
 Bluditには、`$staticContent`という[静的ページ用の定義済み変数](https://docs.bludit.com/en/developers/predefined-variables#staticContent)があります。この変数は、すべての静的ページを含む配列です。

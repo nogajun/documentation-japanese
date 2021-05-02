@@ -1,9 +1,9 @@
 # インターネット インフォメーション サービス(IIS)
 <!-- position: 4 -->
 
-Bluditは、厳密にはこのプラットフォームで動作するように設計されていませんが、適切な設定を行えば、[PHP](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php)5.6+を実行するIIS Webサーバ上でWebExtモジュール[URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite)を使用してBluditをホストすることができます。
+厳密に言えばBluditは、このプラットフォームで動作するように設計されていませんが適切な設定を行えば、 [PHP](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php) 5.6+を実行するIIS Webサーバー上でWebExtモジュールの [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) を使用してBluditをホストできます。
 
-まず、必要な書き換えルールを保存しているApacheの`.htaccess`ファイルを、対応する`web.config`ファイルに変換する必要があります。
+まず、必要な書き換えルールを保存しているApacheの`.htaccess`ファイルを対応する`web.config`ファイルに変換する必要があります。
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -28,6 +28,6 @@ Bluditは、厳密にはこのプラットフォームで動作するように�
 </configuration>
 ```
 
-次に、IISサービスアカウント(通常は`IUSR`)に`bl-content`フォルダーのフルコントロールの許可を有効にします。
+次に、IISサービスアカウント(通常は`IUSR`)に`bl-content`フォルダーのフルコントロールを許可します。
 
 それ以外の部分は、すぐに使えるはずです。

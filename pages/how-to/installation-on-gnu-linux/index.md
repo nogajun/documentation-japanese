@@ -55,7 +55,7 @@ $ sudo service php7.0-fpm restart
 $ sudo service nginx restart
 ```
 
-ブラウザを開き、http://localhostに移動してインストールを完了します。
+ブラウザを開き、http://localhost に移動してインストールを完了します。
 
 <h2 id="centos">Centos7/Red Hat7へのインストール</h2>
 
@@ -110,4 +110,4 @@ $ sudo systemctl php-fpm restart
 $ sudo systemctl nginx restart
 ```
 
-ブラウザを開き、http://localhostに移動してインストールを完了します。
+ブラウザを開き、http://localhost に移動してインストールを完了します。

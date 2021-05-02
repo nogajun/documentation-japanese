@@ -17,14 +17,14 @@ Timemchine XはBludit PROに含まれていますが、こちらから別途購�
 
 -  **管理パネル**に移動します。
 -  **設定 > プラグイン**に移動します。
-- **Timemachine X**プラグインを検索し、**Settings**ボタンをクリックします。
+- **Timemachine X**プラグインを検索し、**設定**ボタンをクリックします。
 - 日付順にイベントのリストが表示されます。
 - イベントを検索し、**Go back to this point**ボタンをクリックします。
 - これで、システムは以前の状態に復元されます。
 
 ## 動画
 
-こちらのビデオでは、ユーザーが新しいページを作成した後、そのページが「誤って」削除されていることがわかります。Then the page is recovered via Timemachine X.
+こちらのビデオでは、ユーザーが新しいページを作成した後、そのページが「誤って」削除されていることがわかります。その後、Timemachine Xでページを復元しています。
 
 <div class="videoWrapper">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/_kz-qZkOBpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

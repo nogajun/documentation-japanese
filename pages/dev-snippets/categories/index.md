@@ -1,7 +1,7 @@
 # カテゴリー
 <!-- position: 5 -->
 
-ここでは、カテゴリーを扱うためのコードスニペットを紹介します。
+ここでは、カテゴリーを操作するコードスニペットを紹介します。
 
 カテゴリの定義済み変数
 - `$categories`はCategoriesオブジェクトです。[ここにクラスがあります](https://github.com/bludit/bludit/blob/master/bl-kernel/categories.class.php)。
