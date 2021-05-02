@@ -1,9 +1,9 @@
-# Password recovery
+# パスワードの回復
 <!-- position: 4 -->
 
 `recovery.php`スクリプトを使用して、`admin`ユーザーのパスワードを回復できます。
 
-<h2 id="how-to-recover-the-password">パスワードの復旧</h2>
+<h2 id="how-to-recover-the-password">パスワードの回復方法</h2>
 
 1. [recovery.php](https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php)ファイルをダウンロードします。
 2. `recovery.php`ファイルをBluditをインストールしたルートフォルダにアップロードします。

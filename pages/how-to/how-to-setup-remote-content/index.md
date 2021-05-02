@@ -2,33 +2,33 @@
 <!-- position: 1 -->
 
 Bluditは、リモートでホスティングされているコンテンツの利用をサポートしています。この例では、GitHubリポジトリのセットアップとBluditのデフォルト設定を使用したプラグイン設定について説明します。
-たとえば、[Bludit Blog](https://blog.bludit.com)は、このプラグインで動いています。サイトのコンテンツは、Githubのこちら[https://github.com/bludit/blog](https://github.com/bludit/blog)のリポジトリにあります。新しいページを作成したい場合は、そのページを作成してGithubにアップロード(push)します。
+利用例としては、[Bludit Blog](https://blog.bludit.com)は、このプラグインで動いています。サイトのコンテンツは、Githubのこちら[https://github.com/bludit/blog](https://github.com/bludit/blog)のリポジトリにあります。新しいページを作成したい場合は、そのページを作成してGithubにアップロード(push)します。
 
 ## 前提条件
 
  [GitHub](https://www.github.com)アカウントが必要です。無償ですぐに入手でき、無制限の公開リポジトリ*と*プライベートリポジトリが利用できます。
 
-gitリポジトリのzip ファイルを読むための PHP[zip](https://www.php.net/manual/en/book.zip.php)モジュール。
+gitリポジトリのzip ファイルを読むための PHP [zip](https://www.php.net/manual/en/book.zip.php)モジュール。
 
 このチュートリアルでは、[GitHub Desktop](https://desktop.github.com/)を使用してリポジトリを作成、管理します。また、BluditブログがこちらのようなURL、_https://blog.mydomain.com_にインストールされていることを前提とします。
 
-## git リポジトリの準備
+## gitリポジトリの準備
 
 自分のPCに、_bludit-tutorial_という名前のディレクトリを作成します。次にGitHub Desktopを開き、左上の部分をクリックして新しいリポジトリを作成します(_Add_をクリックし、_Create new repository_を選択します)。
 
-リポジトリに_remote-content-example_と名前をつけ、簡単な説明を入力してます。_Local Path_から_bludit-tutorial_フォルダを指定し、_Create Repository_ボタンをクリックします。これで、_bludit-tutorial_フォルダーに新しいサブフォルダー_remote-content-example_が作成されます。
+リポジトリに_remote-content-example_と名前をつけ、簡単な説明を入力しています。_Local Path_から_bludit-tutorial_フォルダを指定し、_Create Repository_ボタンをクリックします。これで、_bludit-tutorial_フォルダーに新しいサブフォルダー_remote-content-example_が作成されます。
 
 Bluditにコンテンツを正しく解析させるには、いくつかのフォルダを作成し次のような構造にする必要があります。
 
 * _ルート_
    * pages
-      * _page A folder_
+      * _ページAフォルダー_
          * index.txt
-      * _page B folder_
+      * _ページBフォルダー_
          * index.txt
       * ...
 
-実際には、作成したリポジトリをエクスプローラー(Windows)やFinder(MacOS)で開き、次のようなフォルダーやファイルを作成します。
+実際には、作成したリポジトリをエクスプローラー(Windows)やFinder(MacOS)で開き下のようなフォルダーやファイルを作成します。
 
 * remote-content-example _(すでに存在しています)_
    * pages
@@ -56,15 +56,15 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 このページは、リモートコンテンツサンプルの2つめのページです。
 ```
 
-GitHub-Desktopは、あなたが行ったすべての変更を表示します。コミットメッセージとして_これは最初のコミットです_と入力して、_Commit to master_をクリックします。リポジトリを公開し（つまり、GitHubアカウントにアップロードされます）、ブラウザで_https://github.com/yourusername/remote-content-example_リポジトリを開きます。
+GitHub Desktopは、あなたが行ったすべての変更を表示します。コミットメッセージとして「_最初のコミットです_」と入力して、_Commit to master_をクリックします。リポジトリを公開し(つまり、GitHubアカウントにアップロードされます)、ブラウザで_https://github.com/yourusername/remote-content-example_リポジトリを開きます。
 
 ## Bluditリモートコンテンツプラグインの有効化と設定
 
 ### Bluditプラグインの準備
-Bluditの管理パネルにログインし、プラグインセクションに移動します。リモートコンテンツプラグインが表示されるまで下にスクロールします。'activate'をクリックして、'configuration'をクリックします。_webhook_入力要素下に表示されているURLをコピーします。例: _https://blog.mydomain.com/9as7dfsd98f をクリップボードにコピー(_Ctrl + c_または_cmd + c_)。
+Bluditの管理パネルにログインし、プラグインセクションに移動します。リモートコンテンツプラグインが表示されるまで下にスクロールします。'有効化'をクリックして、'設定'をクリックします。_webhook_入力フィールドの下に表示されているURLをコピーします。(例: _https://blog.mydomain.com/9as7dfsd98f_ )をクリップボードにコピー(_Ctrl + c_または_cmd + c_)します。
 
 ### GitHubリポジトリの設定
-ウェブブラウザのタブ(またはウィンドウ)を開いてGitHubリポジトリにアクセスし、_Settings_を開きます。 _Webhooks_に移動し、新しいWebhookを作成します。コピーしたWebhookのURLを_Payload URL_フィールドに貼り付け、_Content Type_を_application/json_に切り替えます。_Add webhook_をクリックします。
+ウェブブラウザのタブ(またはウィンドウ)を開き、GitHubリポジトリにアクセスして_Settings_を開きます。 _Webhooks_に移動し、新しいWebhookを作成します。コピーしたWebhookのURLを_Payload URL_フィールドに貼り付け、_Content Type_を_application/json_に切り替えます。_Add webhook_をクリックします。
 
 ### Bluditにリポジトリzipファイルの場所を追加
 リポジトリのメインページに戻って、_clone or download_セクションからzipパッケージのURLをコピーします。コピーした完全なURLを_Source_という名前のBluditプラグイン設定フィールドに追加します。プラグイン設定を保存します。

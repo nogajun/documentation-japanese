@@ -41,7 +41,7 @@ Body:
 ```
 
 <h2 id="curl-example">CURLコマンド例</h2>
-このcurlの例は、キー`my-dog`を持つページを削除する例を紹介しています。
+以下のcurlの例は、キー`my-dog`を持つページを削除する例です。
 
 ```bash
 $ curl  -X DELETE \

@@ -57,9 +57,9 @@ Body:
 ```
 
 <h2 id="curl-example">CURLコマンド例</h2>
-The follow curl example shows how to edit a page with the key `my-dog`.
+以下のcurlの例は、キー`my-dog`を持つページを編集する例です。
 
-Content of file `data.json`
+ファイル`data.json`の内容
 
 ```bash
 {

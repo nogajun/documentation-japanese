@@ -18,8 +18,8 @@ APIへのすべてのリクエストには、`APIトークン`が必要です。
 
 <h2 id="response">レスポンス</h2>
 
-- HTTP Code: `200`
-- Content-Type: `application/json`
+- HTTPコード: `200`
+- コンテンツタイプ: `application/json`
 
 ```
 {
@@ -104,7 +104,7 @@ $ curl -X GET \
 ```
 
 <h2 id="javascript-example">Javascriptの例</h2>
-You can use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to get the list of tags.
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)を使ってタグ一覧を取得できます。
 
 ```
 <script>
