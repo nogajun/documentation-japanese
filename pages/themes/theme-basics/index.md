@@ -1,9 +1,9 @@
 # テーマの基本
 <!-- position: 1 -->
 
-Bluditのテーマは非常に柔軟で、どんなフレームワーク([Bootstrap](http://getbootstrap.com/)、[Foundation](https://foundation.zurb.com/)、[Bulma](https://bulma.io)、[UIkit](https://getuikit.com/)、[Semantic UI](https://semantic-ui.com)など)でも、あらゆるJavascriptコードでも自由に扱えます。
+Bluditのテーマは非常に柔軟で、どんなフレームワーク([Bootstrap](http://getbootstrap.com/), [Foundation](https://foundation.zurb.com/), [Bulma](https://bulma.io), [UIkit](https://getuikit.com/), [Semantic UI](https://semantic-ui.com),など)でも、どんなJavascriptのコードでも自由に利用できます。
 
-すべてのテーマは`bl-themes`フォルダーにあり、定義された構造を持っています。
+すべてのテーマは`bl-themes`フォルダーにあり、あらかじめ定義された構造を持っています。
 
 <h2 id="structure">フォルダーとファイル構造</h2>
 これは、テーマのシンプルな（そして必須の）フォルダーとファイル構造です。
@@ -16,7 +16,7 @@ Bluditのテーマは非常に柔軟で、どんなフレームワーク([Bootst
 ```
 
 <h2 id="name-description">名前と説明</h2>
-テーマの名前と説明は、JSONファイル `languages/en.json` にあります。
+テーマの名前と説明は、JSONファイル`languages/en.json`にあります。
 
 ```
 {
@@ -29,7 +29,7 @@ Bluditのテーマは非常に柔軟で、どんなフレームワーク([Bootst
 ```
 
 <h2 id="information">テーマ情報</h2>
-テーマの基本情報については、JSONファイル `metadata.json` に収められています。
+テーマの基本情報については、JSONファイル`metadata.json`に収められています。
 
 ```
 {
@@ -44,8 +44,8 @@ Bluditのテーマは非常に柔軟で、どんなフレームワーク([Bootst
 }
 ```
 
-<h2 id="examples">テーマ例</h2>
-2つの例をご紹介します。1つはシンプルなもの、もう1つはCSSやJavascriptのファイルを使った複雑なものです。
+<h2 id="examples">テーマの例</h2>
+2つの例を紹介します。1つはシンプルなもの、もう1つはCSSやJavascriptのファイルを使った複雑なものです。
 
 - [はじめてのテーマ](https://docs.bludit.com/en/themes/example-my-first-theme)
 - [2番目のテーマ](https://docs.bludit.com/en/themes/example-my-second-theme)
