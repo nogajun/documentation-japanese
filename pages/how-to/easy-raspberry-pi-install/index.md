@@ -1,13 +1,13 @@
 # Raspberry Piへ簡単インストール
 <!-- position: 2 -->
 
-このプロジェクトの目的は、Raspberry PiにBluditを設定しインストールする簡単な方法を作ることです。
+このプロジェクトの目的は、Raspberry PiにBluditをインストールして設定する簡単な方法を作成することです。
 
 このビルドスクリプトは[Pi Lab](https://pilab.dev/bludit-pi)から提供されています。
 
-> ***このスクリプトは、すでにWebサーバがインストールされ構成されているRaspberry Pi上で実行することはお勧めしません。***
+> ***このスクリプトは、すでにWebサーバがインストールされ構成されているRaspberry Piで実行することはお勧めしません。***
 
-以下のテクノロジーが自動的にインストールされます。
+以下の技術が自動的にインストールされます。
 * Apache
 * PHP
 * [Bludit](https://www.bludit.com/) (最新版)
@@ -25,7 +25,7 @@ sudo apt-get install git
 
 2. 以下を実行します。
 ```
-git clone https://github.com/mhancoc7/Bludit-Pi.git
+git clone https://github.com/jeremehancock/Bludit-Pi.git
 ```
 3. 以下を実行します。
 ```
@@ -57,4 +57,4 @@ bash build.sh
 
 ---
 
-[<img src="https://pilab.dev/images/check-it-out-on-github.png" alt="GitHubで入手" width="300px;" />](https://github.com/mhancoc7/Bludit-Pi/)
+[<img src="https://pilab.dev/images/check-it-out-on-github.png" alt="GitHubで入手" width="300px;" />](https://github.com/jeremehancock/Bludit-Pi/)

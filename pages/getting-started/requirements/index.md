@@ -5,7 +5,7 @@ PHPが利用できるWebサーバーが必要です。
 
 - PHP v5.6以上。
 - UTF-8を完全にサポートするためのPHP [mbstring](https://www.php.net/manual/en/book.mbstring.php)モジュール
-- 画像処理をするためのPHP [gd](https://www.php.net/manual/en/book.image.php)モジュール
+- 画像を処理するためのPHP [gd](https://www.php.net/manual/en/book.image.php)モジュール
 - DOM操作をするためのPHP [dom](https://www.php.net/manual/en/book.dom.php)モジュール
 - JSONを操作するためのPHP [json](https://www.php.net/manual/en/book.json.php)モジュール
 - Bluditは、ほとんどすべてのWebサーバーに対応しています:

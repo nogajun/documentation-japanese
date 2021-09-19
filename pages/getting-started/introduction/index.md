@@ -18,9 +18,15 @@ SNSやその他のプラットフォームで開発者やBluditユーザーと�
 * [GitHub](https://github.com/bludit/bludit)
 
 <h2 id="donations">寄付</h2>
-寄付とコミュティによる支援によって、プロジェクトは継続的に支援されます。Paypalから寄付をしたり、PatreonからBluditをサポートしてBludit PROを手に入れましょう。
-* [Paypal](https://www.paypal.me/bluditpro/5)
-* [Patreon](https://www.patreon.com/bludit) - Donations get you access to Bludit PRO.
+寄付とコミュティによる支援によりプロジェクトは継続的に支援されます。Paypalから寄付をしたりPatreonからBluditをサポートしてBludit PROを手に入れましょう。
+* [Paypal](https://www.paypal.me/bludit/10)
+* [Patreon](https://www.patreon.com/bludit) - Bludit PROが入手できます。
+
+暗号資産でも寄付できます。
+* BTC (Network BTC): **bc1qtets5pdj73uyysjpegfh2gar4pfywra4rglcph**
+* ETH (Network ETH): 0x0d7D58D848aA5f175D75Ce4bC746bAC107f331b7
+* SOL (Network SOL): ecTFfNofZf1p5BGMUbgR6yktJpaJy7gKZiBmr91Bjk7
+* DOGE (Network DOGE): DGooPeZcCv2nK8HE3ioqxEUk9x6tp6LkD6
 
 <h2 id="license">ライセンス</h2>
-Bluditは、[MIT license.](https://tldrlegal.com/license/mit-license)でライセンスされたオープンソースソフトウェアです。
+Bluditは、[MIT license](https://tldrlegal.com/license/mit-license)でライセンスされたオープンソースソフトウェアです。

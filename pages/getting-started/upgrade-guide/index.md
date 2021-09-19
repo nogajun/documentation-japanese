@@ -20,7 +20,7 @@
 
 <h2 id="upgrade-from-bludit-2-to-bludit-3">Bludit v2.3.4からBludit v3.0へのアップグレード</h2>
 
-メジャーバージョン間の移行を行う場合は、[@anaggh](https://github.com/anaggh)氏が作成したツールの利用をお薦めします。以下の注意事項と彼のリポジトリで説明されている移行手順もお読みください。何か質問がある場合は、[フォーラム](https://forum.bludit.org)や[チャット](https://gitter.im/bludit/support)でお尋ねください。
+メジャーバージョン間の移行には、@anaggh氏が作成したツールの利用をお薦めします。以下の注意事項と彼のリポジトリで説明されている移行手順もお読みください。何か質問があれば、[フォーラム](https://forum.bludit.org)や[チャット](https://gitter.im/bludit/support)でお尋ねください。
 
 ### 移行前の検討事項
 
@@ -30,4 +30,4 @@
 - 移行プロセス終了後は、`/migrations/`を除く、すべてのファイルとフォルダーを削除し、新しいバージョンのBluditをインストールする必要があります。
 - Bludit v3.0インストール後、新しくインストールしたBluditに`/migrations/bl-content`フォルダーをコピーします。
 
-https://github.com/anaggh/bludit-scripts/tree/master/migration-v2-to-v3
+https://github.com/bludit-plugins/migration-v2-to-v3/blob/main/migrate.php
