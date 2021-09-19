@@ -20,7 +20,7 @@ SNSやその他のプラットフォームで開発者やBluditユーザーと�
 <h2 id="donations">寄付</h2>
 寄付とコミュティによる支援によりプロジェクトは継続的に支援されます。Paypalから寄付をしたりPatreonからBluditをサポートしてBludit PROを手に入れましょう。
 * [Paypal](https://www.paypal.me/bludit/10)
-* [Patreon](https://www.patreon.com/bludit) - Bludit PROが入手できます。
+* [Patreon](https://www.patreon.com/bludit) - Bludit PROを入手できます。
 
 暗号資産でも寄付できます。
 * BTC (Network BTC): **bc1qtets5pdj73uyysjpegfh2gar4pfywra4rglcph**
