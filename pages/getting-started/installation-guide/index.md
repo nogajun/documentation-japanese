@@ -14,7 +14,7 @@
 
 <h2 id="subdirectory">サブディレクトリへのインストール</h2>
 
-Bluditをサブディレクトリにインストールする場合、インストールディレクトリにあるファイル`.htaccess`を変更しなければいけない場合があります。
+Bluditをサブディレクトリにインストールする場合、インストールディレクトリにあるファイル`.htaccess`を変更の必要がある場合があります。
 
 たとえば、Bluditがサブディレクトリ`bludit`にインストールされている場合、`.htaccess`ファイルを以下のように変更の必要があります(9行目)。
 
@@ -27,7 +27,7 @@ RewriteBase /bludit/
 
 <h2 id="php-built-in-web-server">PHP組み込みWeb サーバーの利用</h2>
 
- [PHP組み込みのWebサーバー](https://www.php.net/manual/en/features.commandline.webserver.php)を使用すると、Bludit をコマンドラインから素早く実行できます。
+ [PHP組み込みのWebサーバー](https://www.php.net/manual/en/features.commandline.webserver.php)を使うとコマンドラインからBluditを素早く実行できます。
 
 ```
 $ git clone https://github.com/bludit/bludit.git
@@ -35,7 +35,7 @@ $ cd bludit
 $ php -S localhost:8000
 ```
 
-好きなブラウザで、URL `http://localhost:8000`にアクセスします。
+好きなブラウザでURL `http://localhost:8000`にアクセスします。
 
 ---
 
@@ -46,7 +46,7 @@ Bluditを公式  [Dockerイメージ](https://hub.docker.com/r/bludit/docker/) �
 $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
 ```
 
-好きなブラウザで、URL `http://localhost:8000`にアクセスします。
+好きなブラウザでURL `http://localhost:8000`にアクセスします。
 
 ---
 
@@ -66,5 +66,5 @@ $ vagrant up
 
 <div class="note">
 <div class="title">Web サーバーについて</div>
-追加の設定については、Webサーバーについての章をご覧ください。<a href="https://docs.bludit.com/en/webservers/apache">Apache</a> - <a href="https://docs.bludit.com/en/webservers/nginx">Nginx</a>
+追加の設定については、Webサーバーについての章をご覧ください。<a href="../../webservers/apache">Apache</a> - <a href="../../webservers/nginx">Nginx</a>
 </div>

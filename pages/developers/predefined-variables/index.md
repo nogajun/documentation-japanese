@@ -10,7 +10,7 @@ Bludit には、開発者を支援するために定義済み変数が用意さ�
 配列は、`date`または`position`の順に並んでいますが、この動作はシステムの設定で変更できます。
 
 この変数をどのように扱うかについては、コードスニペットを参照してください。
-- https://docs.bludit.com/en/dev-snippets/content-pages
+- [https://docs.bludit.com/en/dev-snippets/content-pages](../../dev-snippets/content-pages/)
 
 <h2 id="staticContent">$staticContent</h2>
 
@@ -19,7 +19,7 @@ Bludit には、開発者を支援するために定義済み変数が用意さ�
 配列は設計上、`position`順に並んでいます。
 
 この変数をどのように扱うかについては、コードスニペットを参照してください。
-- https://docs.bludit.com/en/dev-snippets/content-static
+- [https://docs.bludit.com/en/dev-snippets/content-static](../../dev-snippets/content-static/)
 
 <h2 id="page">$page</h2>
 

@@ -15,5 +15,5 @@
 
 <div class="note">
 <div class="title">エディター</div>
-デフォルトでは、BluditはコンテンツエディターにTinyMCEを使用しています。プラグインセクションから別のエディターに変更もできます。<a href="https://docs.bludit.com/en/content/how-to-change-the-editor">エディターを変更する</a>
+デフォルトでは、BluditはコンテンツエディターにTinyMCEを使用しています。プラグインセクションから別のエディターに変更もできます。<a href="../how-to-change-the-editor">エディターを変更する</a>
 </div>

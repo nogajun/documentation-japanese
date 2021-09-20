@@ -11,5 +11,5 @@ Bludit PROは、Patreonの支援者とスポンサーが利用できます。寄
 - [Patreon](https://www.patreon.com/bludit)
 
 ## Bludit PROに含まれるプラグイン
-- [Timemachine X](https://docs.bludit.com/en/bludit-pro/timemachine-x)
+- [Timemachine X](./bludit-pro/timemachine-x)
 - Simple Stats
