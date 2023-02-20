@@ -1,4 +1,4 @@
-# 開発者の基本
+# 開発の基本
 <!-- position: 1 -->
 
 まず、現在インストールされているBluditの環境変数をチェックしてみましょう。管理パネルの開発者エリア(`https://www.example.com/admin/developers`)に移動します。このセクションはメニューからは見えません。
@@ -6,7 +6,8 @@
 PHPの設定、`$_SERVER`などの環境変数、ロードした拡張機能、インストールしたロケール、Bluditの定数、いくつかのオブジェクトのプロパティなどの情報が表示されます。
 
 ## 管理パネルのファイル読み込みの流れ
-これらのファイルは、ユーザーが管理パネルにアクセスしたときに読み込まれるファイルです。
+
+これらのファイルは、ユーザーが管理パネルにアクセスすると読み込まれるファイルです。
 
 ```
 index.php
@@ -25,7 +26,8 @@ index.php
 ```
 
 ## サイト用ファイルの読み込みの流れ
-ユーザーがサイトにアクセスした際に読み込まれるファイルです。
+
+ユーザーがサイトにアクセスすると読み込まれるファイルです。
 
 ```
 index.php
@@ -42,7 +44,8 @@ index.php
 ```
 
 ## 環境変数と定数
-Bludit には、あらかじめ設定されたさまざまな環境変数や定数が用意されています。
+
+Bluditには、あらかじめ設定されたさまざまな環境変数や定数が用意されています。
 
 - [bl-kernel/boot/init.php](https://github.com/bludit/bludit/blob/master/bl-kernel/boot/init.php)
 - [bl-kernel/boot/variables.php](https://github.com/bludit/bludit/blob/master/bl-kernel/boot/variables.php)
