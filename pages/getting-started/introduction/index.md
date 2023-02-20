@@ -1,13 +1,13 @@
 # はじめに
 <!-- position: 1 -->
 
-Bluditは、ほんの数秒であなたの**Webサイト**や**ブログ**を構築できるWebアプリケーションです。そして、完全に**自由（フリー）でオープンソース**です。
+Bluditは、ほんの数秒であなたの**Webサイト**や**ブログ**が構築できるWebアプリケーションです。そして、完全に**自由（フリー）でオープンソース**です。
 
 Bluditは、コンテンツを**JSON**形式で保存するフラットファイルCMSです。Bluditにデータベースをインストールしたり設定する必要はありません。必要なものはPHPが利用できるWebサーバーだけです。
 
 <h2 id="support">サポートを受ける</h2>
 
-質問やサポートを受けたり、Bluditについてディスカッションができます。
+質問やサポートを受けたり、Bluditについてディスカッションできます。
 
 * [Gitter](https://gitter.im/bludit/support) - オンラインチャット
 * [サポートフォーラム](https://forum.bludit.org)
@@ -23,7 +23,7 @@ SNSやその他のプラットフォームで開発者やBluditユーザーと�
 
 <h2 id="donations">寄付をする</h2>
 
-プロジェクトを継続するには、寄付とコミュニティの支援が必要です。Paypalから寄付したり、PatreonでBluditをサポートしてBludit PROを手に入れましょう。
+プロジェクトの継続には、寄付とコミュニティの支援が必要です。Paypalから寄付したりPatreonでBluditをサポートしてBludit PROを手に入れましょう。
 
 * [Paypal](https://www.paypal.me/bludit/10)
 * [Patreon](https://www.patreon.com/bludit) - Bludit PROが入手できます。
