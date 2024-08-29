@@ -1,8 +1,10 @@
+> [!CAUTION]
+> The author is no longer using Bludit, so it is being archived. If you want to change it, please fork it.
+> 
+> 作者がBluditを使わなくなったのでアーカイブ化します。変更したい人はフォークしてください。
+
 # Bludit Documentation Japanese Version
 
 This is the Japanese translation of the Bludit document.
 
 これは [Bluditドキュメント](https://github.com/bludit/documentation-english)の日本語翻訳版です。
-
-マニュアル形式では <https://docs.bludit.info/> で公開しています。(Bludit本体に取り込まれれば、こちらでの公開は終了する予定です)
-
